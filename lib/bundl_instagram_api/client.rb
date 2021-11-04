@@ -1,13 +1,13 @@
 require 'koala'
 
-module BundlInstagramApi
+module InstagramApi
   class Client < Koala::Facebook::API
     Dir[File.expand_path('../client/*.rb', __FILE__)].each{|f| require f}
 
-    include BundlInstagramApi::Client::Insights
-    include BundlInstagramApi::Client::Users
-    include BundlInstagramApi::Client::Media
-    include BundlInstagramApi::Client::Discovery
-    include BundlInstagramApi::Client::Tag
+    include InstagramApi::Client::Insights
+    include InstagramApi::Client::Users
+    include InstagramApi::Client::Media
+    include InstagramApi::Client::Discovery
+    include InstagramApi::Client::Tag
   end
 end

@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "bundl_instagram_api/version"
+require "instagram_api/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "bundl_instagram_api"
-  spec.version       = BundlInstagramApi::VERSION
+  spec.name          = "instagram_api"
+  spec.version       = InstagramApi::VERSION
   spec.authors       = ["Tyler"]
   spec.email         = ["tyler@trybundl.com"]
 
   spec.summary       = %q{Instagram Graph API}
   spec.description   = %q{New Instagram Graph API}
-  spec.homepage      = "https://github.com/tameyer41/bundl-instagram-api"
+  spec.homepage      = "https://github.com/tameyer41/instagram-api"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

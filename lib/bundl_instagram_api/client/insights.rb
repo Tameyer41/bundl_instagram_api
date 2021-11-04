@@ -1,4 +1,4 @@
-module BundlInstagramApi
+module InstagramApi
   class Client
     module Insights
 

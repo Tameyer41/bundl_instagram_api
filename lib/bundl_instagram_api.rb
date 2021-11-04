@@ -1,9 +1,9 @@
-require "bundl_instagram_api/version"
-require "bundl_instagram_api/client"
+require "instagram_api/version"
+require "instagram_api/client"
 
-module BundlInstagramApi
+module InstagramApi
   # Your code goes here...
   def self.client(token)
-    BundlInstagramApi::Client.new(token)
+    InstagramApi::Client.new(token)
   end
 end

@@ -1,4 +1,4 @@
-module BundlInstagramApi
+module InstagramApi
   class Client
     module Tag
       def tag_media(page_token, tag_name, fields = nil, edge: "top_media", options: {})

@@ -1,4 +1,4 @@
-module BundlInstagramApi
+module InstagramApi
   class Client
     module Media
       attr_accessor :media_info, :raw_insights
