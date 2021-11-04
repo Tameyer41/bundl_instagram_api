@@ -1,4 +1,4 @@
-module InstagramApi
+module BundlInstagramApi
   class Client
     module Users
       def ig_business_accounts(fields = nil)

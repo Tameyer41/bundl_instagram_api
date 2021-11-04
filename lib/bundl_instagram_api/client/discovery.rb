@@ -1,4 +1,4 @@
-module InstagramApi
+module BundlInstagramApi
   class Client
     module Discovery
       def discover_user(username, fields = nil)
