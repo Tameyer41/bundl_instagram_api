@@ -1,4 +1,4 @@
-# InstagramGraphApi
+# Bundl Instagram API
 
 A gem for Instagram Graph API using [koala](https://github.com/arsduo/koala).
 
@@ -7,7 +7,7 @@ A gem for Instagram Graph API using [koala](https://github.com/arsduo/koala).
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'instagram_graph_api'
+gem 'bundl_instagram_api'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install instagram_graph_api
+    $ gem install bundl_instagram_api
 
 ## Usage
 
 ```ruby
-client = InstagramGraphApi.client(ACCESS_TOKEN)
+client = BundlInstagramApi.client(ACCESS_TOKEN)
 
 #get an arraay of business accounts linked to the access_token
 client.ig_business_accounts
@@ -75,7 +75,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rakeshpatra/instagram_graph_api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+This is a fork of https://github.com/rakeshpatra/instagram_graph_api. All contributions should be directed at Rakeshpatra's page.
 
 ## License
 
